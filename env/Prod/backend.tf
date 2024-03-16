@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "nomedobucket"
+    bucket = "namedobucket"
     key    = "prod/terraform.tfstate"
     region = "us-west-2"
   }
